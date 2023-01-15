@@ -35,13 +35,18 @@ header > h1{
 header > p{
     padding-bottom: 50px;
 }
+
 header a, footer a {
-    color: white;
+    color: rgb(53, 112, 240);
     text-decoration: none;
     font-weight: bolder;
 }
 header a:hover, footer a:hover{
+    background-color: rgba(53, 112, 240, 0.164);
     text-decoration: underline;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding: 5px
 }
 section{
     font-family: var(--fonte03);
@@ -85,8 +90,9 @@ section#img02{
 }
 
 footer {
-    font-family: var(--fonte02);
+    font-family: var(--fonte03);
+    font-size: 1.3em;
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 10p}
+    text-align: center;    
+}
