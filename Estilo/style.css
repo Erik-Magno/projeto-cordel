@@ -84,14 +84,9 @@ section#img02{
 
 }
 
-
-
-
-
-
-
 footer {
+    font-family: var(--fonte03);
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10p
+    padding: 10p}
