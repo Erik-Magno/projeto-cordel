@@ -93,5 +93,6 @@ footer {
     font-family: var(--fonte03);
     background-color: black;
     color: white;
-    text-align: center;    
+    text-align: center;
+    padding: 2px;    
 }
