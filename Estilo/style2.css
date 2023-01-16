@@ -1,0 +1,106 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --cor1: #649BEE;
+    --cor2: #1D70EB;
+    --cor3: #1657B8;
+    --cor4: #0D336B;
+
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor1));
+    text-align: center;
+}
+header > h1{
+    padding-top: 20px;
+    font-size: 12vw;
+    color: white;
+    font-family: var(--fonte02);
+    font-variant: small-caps;    
+}
+header > p {
+    font-family: var(--fonte03);
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    color: white;
+    
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+header a:hover, footer a:hover{
+    background-color: rgba(167, 234, 236, 0.11);
+    text-decoration: underline;
+    padding: 2px;
+    border-radius: 10px;
+}
+section{
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section > p {
+    padding-bottom: 2em;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section.normal{
+    font-family: var(--fonte03);
+    background-image: linear-gradient(to right, var(--cor1), white 90%);
+}
+section.imagem {
+    font-family: var(--fonte03);
+    background-color: var(--cor4);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+section#img2{
+    background-image: url(../imagens/background002.jpg);
+
+}
+
+
+
+
+
+
+
+footer{
+    background-image: linear-gradient(to top, var(--cor4), var(--cor1));
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    
+}
